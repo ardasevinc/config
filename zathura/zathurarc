@@ -1,0 +1,9 @@
+set selection-clipboard clipboard
+map d scroll half-down
+map u scroll half-up
+map [fullscreen] d scroll half-down
+map [fullscreen] u scroll half-up
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map <C-d> toggle_page_mode
+map [fullscreen] <C-d> toggle_page_mode
