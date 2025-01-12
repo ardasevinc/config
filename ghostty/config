@@ -1,0 +1,33 @@
+# theme & visual
+theme = dark:catppuccin-mocha,light:catppuccin-latte
+background-opacity = 0.8
+window-decoration = false
+window-padding-y = 4,0
+# 115c30r
+window-height=30
+window-width=115
+unfocused-split-opacity = 1
+
+
+# font config
+font-family = Iosevka Nerd Font Mono
+font-size = 14.5
+
+# mouse and kbd
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+# keybinds
+keybind = super+f=toggle_fullscreen
+keybind = super+t=toggle_window_decorations
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+a>v=new_split:right
+keybind = ctrl+a>b=new_split:down
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>l=goto_split:right
+keybind = ctrl+a>j=goto_split:bottom
+keybind = ctrl+a>k=goto_split:top
+keybind = ctrl+shift+equal=equalize_splits
+
+# misc
+scrollback-limit = 10485760
